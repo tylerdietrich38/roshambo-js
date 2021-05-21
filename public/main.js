@@ -59,7 +59,7 @@ function main() {
       window.alert(`It's a draw!`)
     } else if (
       (player2RPS === 'Paper' && player1RPS === 'Rock') ||
-      (player2RPS === 'Paper' && player1PS === 'Spock')
+      (player2RPS === 'Paper' && player1RPS === 'Spock')
     ) {
       window.alert(`Player 2 won!`)
     } else {
@@ -166,7 +166,7 @@ function main() {
     }
   }
 
-  // player two scissors
+  // player two spock
   function player2Spock() {
     player2RPS = 'Spock'
     if (player2RPS === player1RPS) {
